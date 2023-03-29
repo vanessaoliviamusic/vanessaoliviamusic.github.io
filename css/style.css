@@ -10,7 +10,7 @@
 }
 
 body {
-	background-color: #333a56;
+	background-color: #faafba;
 	margin: 0;
 	padding-top: 100px;
 }
@@ -38,6 +38,8 @@ body {
 
 /********************************************** HEADER ********************************************/
 
+
+
 /* Center the Header */
 #main, #logo, .site_content, .site_content_index #footer {
 	margin-left: auto; 
@@ -46,13 +48,14 @@ body {
 
 /* Sets the header background and height */
 header {
-	background-color: #333a56;
-	height: 100px;
+	background-color: #faafba;
+	height: min-content;
+	
 }
 
 /* Big Name Logo (Logo 1) and Subtitle (Logo 2) */
 #logo {
-	position: relative;
+	/*position: relative;*/
 	max-width: 80%;
 	width: 80%;
 
@@ -60,10 +63,10 @@ header {
 
 #logo h1 {
 	display: block;
-	margin: .2em 0 0 0;
-	text-align: center;
-	letter-spacing: .2em;
-	font: normal 300% 'Tajawal', sans-serif;
+	margin: -10% 0 0 -10%;
+	text-align: justify;
+	letter-spacing: .1em;
+	font: normal 200% 'Tajawal', sans-serif;
 	color: #FFF;
 }
 
@@ -87,7 +90,7 @@ header {
 @media screen and (min-width: 768px) {
 .anchor-box {
 	background-color: transparent;
-	background-color: #333a56; 
+	background-color: #faafba; 
 	color: #fff; 
 	padding-top: 17px;
 	padding-bottom: 10px;
@@ -105,7 +108,7 @@ header {
 
 .anchor-box {
 	background-color: transparent;
-	background-color: #333a56; 
+	background-color: #faafba; 
 	color: #fff; 
 	margin-right: -21px;
 	margin-left: -21px;
@@ -171,6 +174,8 @@ header {
 	padding-top: 1em;
 }
 
+
+
 }
 
 /**************************************************************************************************/
@@ -189,23 +194,23 @@ header, .container-scrolled {
 	text-align: center;
     left: 0;
 	right: 0;
-	width: 100%;
-	top: 0;
+	width: 50%;
+	top: -5%;
 }
 
 /* Nav container to center and set width */
 .container {
-	margin: 0 auto;
+	margin: -1% 17% .2em auto;
 	z-index: 150;
 	height: 60px;
-	margin-bottom: -60px;
+	margin-bottom: 0px;
 }
 
 /* Background-color to the nav container. */
 nav { 
 	padding: .5em 0 .5em 0;
-	background-color: #e8e8e8;
-	border-bottom: .2em solid #333a56;
+	background-color: #faafba;
+	/*border-bottom: .2em solid #e8e8e8;*/
 }
 
 /* Since we'll have the "ul li" "float:left"
@@ -232,16 +237,16 @@ nav ul li {
 	margin: 0px;
 	display:inline-block;
 	text-align: center;
-	background-color: #e8e8e8;
+	background-color: #faafba;
 }
 
 /* Styling the links */
 nav ul li a, nav ul ul li a {
 	display:block;
 	padding:0 12px;	
-	color:#000;
+	color:#fff;
 	letter-spacing: 0.1em;
-    font-size: 1.15em;
+    font-size: 1em;
     font-family: 'Tajawal', sans-serif;
 	line-height: 40px;
 	text-decoration:none;
@@ -255,7 +260,7 @@ nav ul li a, nav ul ul li a {
 
 /* Background color change on Hover */
 nav a:hover, nav li.selected a, nav li.selected a:hover { 
-	background-color: #52658f; 
+	background-color: #DB7093; 
 	color: #fff;
 }
 	
@@ -326,6 +331,9 @@ nav .scroll {
 }
 
 }
+
+
+
 /***************************************************************************************************/
 
 
@@ -336,19 +344,19 @@ nav .scroll {
 	font-size: 1em;
 	margin: .1em auto .1em auto;
 	padding: 4em 1.3em 0em 1.3em;
-	background-color: #f7f5e6;
+	background-color: #faafba;
 } 
 
 .site_content_index { 
 	font-size: 1em;
 	margin: .1em auto .1em auto;
 	padding: 2em 1.3em 0em 1.3em;
-	background-color: #f7f5e6;
+	background-color: #faafba;
 } 
 
 /* Padding for the page content */
 #content { 
-	padding: .8em .8em .8em .8em;  
+	padding: 0 5em .5em 5em;  
 }
 
  /* Body Tag fonts */
@@ -504,7 +512,7 @@ h3.lines:after {
 /* Footer (Entire Bottom under the Body) */
 footer {
 	height: 120px;
-	background-color: #333a56;
+	background-color: #faafba;
 }
 
 #footer { 
@@ -512,8 +520,8 @@ footer {
 	left: 50%;
 	transform: translateX(-50%);
 	display: inline;
-	background-color: #333a56;
-	font: normal 80% 'Tajawal', sans-serif;
+	background-color: #faafba;
+	font: normal 50% 'Tajawal', sans-serif;
 	margin: .3em auto .3em auto;
 	max-width: 80%;
 }
@@ -525,14 +533,15 @@ footer {
 	clear: both;
 	color: #FFF;
 	text-transform: uppercase;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
 }
 
 #social_media li {
     display: inline-block;
-	text-align: center;
+	text-align: right;
     text-decoration: none;
-	margin: 1em 1.5em 1em 1.5em;
+	/*margin: -1em .2em 1em .2em;*/
+	margin: -1em 0 1e, -20%;
 }
 
 .social_media_music {
@@ -542,14 +551,15 @@ footer {
 	clear: both;
 	color: #FFF;
 	text-transform: uppercase;
-	letter-spacing: 2em;
+	letter-spacing: .2em;
 }
 
 .social_media_music li {
     display: inline-block;
 	text-align: center;
     text-decoration: none;
-	margin: 2em .5em 2em .5em;
+	/*margin: 2em .5em 2em .5em;*/
+	margin: 2em .5em 2em -10%;
 }
 
 
@@ -571,11 +581,11 @@ ul#btmtext li h6 {
 ul#btmtext li h6 a {
 	display: inline-block;
 	color: #FFF;
-	font: normal 80% 'Tajawal', sans-serif;
+	font: normal 50% 'Tajawal', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 0.2em;
-	margin: .4em auto 1em auto;
+	margin: .4em auto .2em auto;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -584,14 +594,14 @@ ul#btmtext li h6 a {
 	left: 50%;
 	transform: translateX(-50%);
 	display: inline;
-	background-color: #333a56;
-	font: normal 75% 'Tajawal', sans-serif;
+	background-color: #faafba;
+	font: normal 50% 'Tajawal', sans-serif;
 	margin: .3em auto .3em auto;
 	max-width: 90%;
 }
 
 ul#btmtext li h6 a {
-	font: normal 75% 'Tajawal', sans-serif;
+	font: normal 50% 'Tajawal', sans-serif;
 }
 
 #social_media li {
@@ -640,7 +650,7 @@ ul.pages li a {
 	background: transparent;
 	border-style: solid;
 	border-width: .2em;
-	border-color: #333a56; 
+	border-color: #faafba; 
 	height: 100%;
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -651,7 +661,7 @@ ul.pages li a {
 
 ul.pages li a:hover, ul.pages li.selected a, ul.pages li.selected a:hover { 
 	color: #fff;
-	background-color: #52658f;
+	background-color: #DB7093;
 }
 
 ul.pages p {
@@ -707,7 +717,7 @@ ul.pages-music li a {
 
 ul.pages-music li a:hover, ul.pages-music li.selected a, ul.pages-music li.selected a:hover { 
 	color: #fff;
-	background-color: #52658f;
+	background-color: #DB7093;
 }
 
 ul.pages-music  p {
@@ -766,7 +776,7 @@ ul.pages-music li a {
 	color: #000;}
   
 .form_settings .submit:hover { 
-	background-color: #52658f;
+	background-color: #DB7093;
 	color: #fff;
 }
 
@@ -807,7 +817,7 @@ ul.pages-music li a {
 }
   
 .form_settings .submit:hover { 
-	background-color: #52658f;
+	background-color: #DB7093;
 	color: #fff;
 }
 
@@ -887,7 +897,7 @@ ul.pages-music li a {
 }
 
 .go-btm:hover {
-	background-color: #52658f;
+	background-color: #DB7093;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -903,11 +913,14 @@ ul.pages-music li a {
 /************************************Hero Photos*******************************************/
 
 .hero {
-	background-image: url("../pictures/misc/hero-img.jpg");
-	height: 380px;
+	margin-left: 0;
+	margin-right: 0;
+	background-image: url("../pictures/vanessa-cropped.jpg");
+	height: 600px;
 	z-index: 100;
-	margin-bottom: -46px;
-	border-bottom: .2em solid #333a56;
+	margin-bottom: 0;
+	border-bottom: .2em solid #faafba;
+	background-color: #faafba
 }
 
 .music-hero {
@@ -954,7 +967,7 @@ ul.pages-music li a {
 }
 
 .hero {
-	background-image: url("../pictures/misc/hero-img.jpg");
+	background-image: url("../pictures/vanessa.jpg");
 	height: 320px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -992,7 +1005,7 @@ ul.pages-music li a {
 	width: 100%;
 	height: 60px;
 	margin: 20px auto 40px auto;
-	border: .0625em solid #333a56; 
+	border: .0625em solid #faafba; 
 	border-radius: 20px;
 }
 
@@ -1027,7 +1040,7 @@ ul.pages-music li a {
 	height: auto;
 	margin: -45px 35px auto 75px;
 	border-radius: 15px;
-	background-color: #52658f; 
+	background-color: #DB7093; 
 }
 
 .playhead {
@@ -1098,13 +1111,15 @@ td, th {
 
 /* Margin for videos */
 .video {
-	position:relative;
-	margin: 1.25em 0em 2.188em 0em;
+	position: relative;
+	margin: 1.25em 0em 2.188em 7.2%;
 }
 
 .youtube-player {
     position: relative;
-    padding-bottom: 56.23%;
+    padding-bottom: 96%;
+	padding-right: 85%;
+	padding-left: 85%;
     /* Use 75% for 4:3 videos */
     height: 0;
     overflow: hidden;
@@ -1225,7 +1240,7 @@ div li.hide {
 .grid {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 1.5em 0 1.5em 0;
+	margin: -4% 0 1.5em 0;
 }
 
 
@@ -1275,22 +1290,22 @@ div li.hide {
 }
 
 .a {
-	background-image: url("../pictures/gallery/light-show.jpg");
+	background-image: url("../pictures/albumcovers/would-you-even-care.jpg");
 	background-size: cover;
 }
 
 .b {
-	background-image: url("../pictures/gallery/synth.jpg");
+	background-image: url("../pictures/albumcovers/subtleties.jpg");
 	background-size: cover;
 }
 
 .c {
-	background-image: url("../pictures/gallery/singing.jpg");
+	background-image: url("../pictures/albumcovers/as-seen-on-tv.jpg");
 	background-size: cover;
 }
 
 .d {
-	background-image: url("../pictures/gallery/guitar.jpg");
+	background-image: url("../pictures/albumcovers/polaroids.jpg");
 	background-size: cover;
 }
 

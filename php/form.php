@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
 	
 	//replace your email here
-	$email_to = "jujubejag@yahoo.com";
+	$email_to = "jane@doe.com";
 	
 	
 	function died($error) {
