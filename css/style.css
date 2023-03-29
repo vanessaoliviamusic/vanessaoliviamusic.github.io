@@ -120,8 +120,8 @@ header {
 /* Resize width */
 #logo {
 	position: relative;
-	max-width: 90%;
-	width: 90%;
+	max-width: 40%;
+	width: 40%;
 	
   }
 /* Resize font for mobile */
@@ -130,7 +130,7 @@ header {
 	margin: .2em 0 0 0;
 	text-align: center;
 	letter-spacing: .2em;
-	font: normal 250% 'Tajawal', sans-serif;
+	font: normal 100% 'Tajawal', sans-serif;
 	color: #FFF;
 	padding-top: .1875em;
 }
@@ -150,8 +150,8 @@ header {
 /* Resize width */
 #logo {
 	position: relative;
-	max-width: 95%;
-	width: 95%;
+	max-width: 40%;
+	width: 40%;
 	
   }
 /* Resize font for mobile */
@@ -160,7 +160,7 @@ header {
 	margin: 0 auto;
 	text-align: center;
 	letter-spacing: .2em;
-	font: normal 185% 'Tajawal', sans-serif;
+	font: normal 90% 'Tajawal', sans-serif;
 	color: #FFF;
 	padding-top: .5em;
 }
@@ -563,6 +563,7 @@ footer {
 }
 
 
+
 /* Text lines underneath Social Media Icons*/
 ul#btmtext {
 	position: relative;
@@ -609,6 +610,7 @@ ul#btmtext li h6 a {
 	text-align: center;
     text-decoration: none;
 	margin: 1em .7em 1em .7em;
+	width: 50%
 }
 
 .social_media_music li {
